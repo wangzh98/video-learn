@@ -1,7 +1,7 @@
-package com.wzh.course.service;
+package com.wzh.server.service;
 
-import com.wzh.course.domain.Test;
-import com.wzh.course.mapper.TestMapper;
+import com.wzh.server.domain.Test;
+import com.wzh.server.mapper.TestMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -1,4 +1,4 @@
-package com.wzh.course.domain;
+package com.wzh.server.domain;
 
 public class Test {
     private String id;

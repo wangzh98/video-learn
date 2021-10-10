@@ -1,7 +1,7 @@
-package com.wzh.course.controller;
+package com.wzh.server.controller;
 
-import com.wzh.course.domain.Test;
-import com.wzh.course.service.TestService;
+import com.wzh.server.domain.Test;
+import com.wzh.server.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

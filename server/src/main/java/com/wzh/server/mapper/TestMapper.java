@@ -1,5 +1,5 @@
-package com.wzh.course.mapper;
-import com.wzh.course.domain.Test;
+package com.wzh.server.mapper;
+import com.wzh.server.domain.Test;
 
 import java.util.List;
 
