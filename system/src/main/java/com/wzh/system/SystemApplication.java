@@ -1,4 +1,4 @@
-package com.wzh.server;
+package com.wzh.system;
 
 
 import org.mybatis.spring.annotation.MapperScan;
@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.core.env.Environment;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.wzh")
 @EnableEurekaClient
-@MapperScan("com.wzh.course.mapper")
+@MapperScan("com.wzh.server.mapper")
 public class SystemApplication {
 
     private static final Logger LOG = LoggerFactory.getLogger(SystemApplication.class);

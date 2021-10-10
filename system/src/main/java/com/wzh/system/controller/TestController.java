@@ -1,6 +1,7 @@
-package com.wzh.server.controller;
+package com.wzh.system.controller;
 
 import com.wzh.server.domain.Test;
+
 import com.wzh.server.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
