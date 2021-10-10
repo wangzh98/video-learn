@@ -1,4 +1,4 @@
-package com.wzh.system;
+package com.wzh.system.config;
 
 
 import org.mybatis.spring.annotation.MapperScan;
